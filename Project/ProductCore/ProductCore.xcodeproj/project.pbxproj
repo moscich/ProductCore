@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49F44A7B9DDF9081437C455F /* ThemeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F44DA356AF37DD58937364 /* ThemeProtocol.h */; };
 		C168D05B18B68C4B00ABC975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C168D05A18B68C4B00ABC975 /* Foundation.framework */; };
 		C168D06118B68C4B00ABC975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C168D05F18B68C4B00ABC975 /* InfoPlist.strings */; };
 		C168D06518B68C4B00ABC975 /* ProductCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C168D06418B68C4B00ABC975 /* ProductCore.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49F44DA356AF37DD58937364 /* ThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeProtocol.h; sourceTree = "<group>"; };
 		C168D05718B68C4B00ABC975 /* ProductCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = ProductCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C168D05A18B68C4B00ABC975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C168D05E18B68C4B00ABC975 /* ProductCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductCore-Info.plist"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				C168D06318B68C4B00ABC975 /* ProductCore.h */,
 				C168D06418B68C4B00ABC975 /* ProductCore.m */,
 				C168D05D18B68C4B00ABC975 /* Supporting Files */,
+				49F44DA356AF37DD58937364 /* ThemeProtocol.h */,
 			);
 			path = ProductCore;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F44A7B9DDF9081437C455F /* ThemeProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +206,7 @@
 				ORGANIZATIONNAME = "Marek Mościchowski";
 				TargetAttributes = {
 					C168D06918B68C4B00ABC975 = {
-						TestTargetID = C168D05618B68C4B00ABC975;
+						TestTargetID = C168D05618B68C4B00ABC975 /* ProductCore */;
 					};
 				};
 			};
