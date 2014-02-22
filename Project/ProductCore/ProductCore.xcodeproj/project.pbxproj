@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49F44A7B9DDF9081437C455F /* ThemeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F44DA356AF37DD58937364 /* ThemeProtocol.h */; };
+		49F44A7B9DDF9081437C455F /* ThemeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F44DA356AF37DD58937364 /* ThemeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C168D05B18B68C4B00ABC975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C168D05A18B68C4B00ABC975 /* Foundation.framework */; };
 		C168D06118B68C4B00ABC975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C168D05F18B68C4B00ABC975 /* InfoPlist.strings */; };
 		C168D06518B68C4B00ABC975 /* ProductCore.m in Sources */ = {isa = PBXBuildFile; fileRef = C168D06418B68C4B00ABC975 /* ProductCore.m */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49F44DA356AF37DD58937364 /* ThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeProtocol.h; sourceTree = "<group>"; };
+		49F44DA356AF37DD58937364 /* ThemeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThemeProtocol.h; path = ../../../Classes/ThemeProtocol.h; sourceTree = "<group>"; };
 		C168D05718B68C4B00ABC975 /* ProductCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = ProductCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C168D05A18B68C4B00ABC975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C168D05E18B68C4B00ABC975 /* ProductCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProductCore-Info.plist"; sourceTree = "<group>"; };
@@ -484,6 +484,7 @@
 				C168D08118B68C4C00ABC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C168D08218B68C4C00ABC975 /* Build configuration list for PBXNativeTarget "ProductCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				C168D08418B68C4C00ABC975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

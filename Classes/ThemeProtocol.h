@@ -14,5 +14,7 @@ typedef enum
 @protocol ThemeProtocol <NSObject>
 
 - (void)colorLabel:(UILabel *)label withType:(LabelThemeType)type;
+- (void)colorBackground:(UIView *)view;
+- (void)fillLogoImage:(UIImageView *)imageView;
 
 @end
