@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "dudutuautjwef w"
   s.license          = 'MIT'
   s.author           = { "Marek Mościchowski" => "moscich@gmail.com" }
-  s.source           = { :git => "https://moscich@bitbucket.org/moscich/coreproduct.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/moscich/ProductCore.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '5.0'
 
